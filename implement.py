@@ -4,7 +4,7 @@ import random
 def reverse_list(arr):
     start = 0
     end = len(arr) - 1
-
+{
     while start < end:
         arr[start], arr[end] = arr[end], arr[start]
         start += 1
@@ -34,3 +34,5 @@ print("Reversed List:", reversed_data)
 # Shuffle
 shuffled_data = my_shuffle(data.copy())
 print ("Shuffled List:", shuffled_data)
+
+}
